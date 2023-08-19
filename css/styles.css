@@ -714,10 +714,8 @@ cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-desc {
-  display: block;
   color: var(--whiteblue);
 font-size: 12px;
-font-weight: 400;
 line-height: 1.17;
 letter-spacing: 0.04em;
 }
@@ -732,7 +730,7 @@ letter-spacing: 0.04em;
   justify-content: center;
   fill: transparent;
 }
-.checkbox:checked .checkbox-icon {
+.checkbox:checked+.modal-form-desc>.checkbox-icon {
   background-color: var(--lightblue); 
   border: none;
   fill: var(--whitish);
@@ -741,8 +739,6 @@ letter-spacing: 0.04em;
   color: var(--blue);
 }
 .modal-form-agreement {
-  display: block;
-  margin-top: 16px;
   margin-bottom: 24px;
 }
 .is-hidden {
