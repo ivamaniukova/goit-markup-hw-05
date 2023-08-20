@@ -491,6 +491,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 .ftr-icon {
   fill: var(--whitish);
@@ -539,7 +540,6 @@ img {
   border-radius: 4px;
 border: 1px solid #FFF;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-margin-right: 24px;
 background-color: transparent;
 padding-left: 16px;
 color: #FFFFFF;
@@ -573,7 +573,6 @@ letter-spacing: 0.04em;
 }
 .subscribe-icon {
   fill: #FFFFFF;
-  margin-left: 16px;
 }
 .backdrop {
   position: fixed;
@@ -642,7 +641,6 @@ letter-spacing: 0.04em;
 }
 .modal-text-field {
   position: relative;
-  margin-bottom: 8px;
   border-radius: 4px;
 }
 .modal-text-field:active {
@@ -713,6 +711,10 @@ min-width: 169px;
 height: 56px;
 cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.send-button:hover,
+.send-button:focus {
+  background-color: #404bbf;
 }
 .modal-form-desc {
   display: block;
